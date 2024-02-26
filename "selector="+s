@@ -1,0 +1,4 @@
+   System.out.println("subName="+s.getSubName()); 
+      System.out.println("selector="+s.getSelector()); 
+      System.out.println("durable="+s.isDurable()); 
+      System.out.println("transactional="+s.isTransactional()); 
