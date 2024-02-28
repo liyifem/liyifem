@@ -1,0 +1,6 @@
+  // Save the IApiContext in the HttpSession 
+  session.setAttribute("API_CONTEXT", apiContext); 
+ 
+  // Commit the Transaction 
+  ApiUtil.commitTransaction(); 
+} 
