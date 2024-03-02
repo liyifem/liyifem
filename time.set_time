@@ -1,0 +1,9 @@
+                sys.exit()
+            elif event.type == MOUSEBUTTONDOWN:
+                if event.button == 1 and paused_rect.collidepoint(event.pos):
+                    paused = not paused
+                    if paused:
+                        pygame.time.set_timer(SUPPLY_TIME, 0)
+                        pygame.mixer.music.pause()
+                        pygame.mixer.pause()
+                        paused_image = resume_pressed_image
