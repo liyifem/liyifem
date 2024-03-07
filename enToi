@@ -1,0 +1,7 @@
+    public Point screenToindex(int x, int y) {
+        int ix = x / iconSize;
+        int iy = y / iconSize;
+        if (ix < xCount && iy < yCount) {
+            return new Point(ix, iy);
+        } else {
+            return new Point(0, 0);
