@@ -1,0 +1,11 @@
+ public double getMoney() {
+  return money;
+ }
+
+ public void setMoney(double money) {
+  this.money = money;
+ }
+
+ public String getState() {
+  return state;
+ }
