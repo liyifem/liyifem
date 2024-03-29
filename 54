@@ -1,0 +1,6 @@
+ public void setState(String state) {
+  this.state = state;
+ }
+
+ public static double getAllmoney() {
+  return allmoney;
